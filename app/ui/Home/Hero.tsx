@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="flex flex-col justify-center items-center h-[84vh]  w-full">
+    <div className="flex flex-col justify-center items-center h-[84vh] lg:h-[95vh] w-full">
       <div className="relative flex justify-center items-center h-full w-full overflow-hidden">
         <div className="relative flex justify-center items-center h-full w-full max-w-4xl text-black">
           <div

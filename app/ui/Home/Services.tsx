@@ -1,23 +1,61 @@
-import {GiBrain, GiMeditation} from "react-icons/gi";
-import {GrGroup, GrYoga} from "react-icons/gr";
-import {FaPeopleGroup} from "react-icons/fa6";
-import {MdPsychology, MdCastForEducation} from "react-icons/md";
-import {IoBody} from "react-icons/io5";
+import {FaWhatsapp} from "react-icons/fa";
 
 export default function Services() {
+  function WhatsappButton({ title }: { title: string }) {
+    return (
+      <div className="flex justify-center items-center w-full">
+        <button className="flex flex-row justify-center items-center p-2 gap-2 rounded-lg shadow-2xl border border-black">
+          <FaWhatsapp className="text-2xl text-[#25d366]" />
+          <a
+            className="flex w-full"
+            target="_blank"
+            href={`https://wa.me/${process.env.WHATSAPP_NUMBER}?text=${title}%20hakkında%20bilgi%20almak%20istiyorum.`}>
+            {title} Destek Hattı
+          </a>
+        </button>
+      </div>
+    );
+  }
+
   return (
     <div id="hizmetler" className="flex justify-center items-center h-full w-full py-8">
       <div className="flex flex-col justify-center items-center h-full w-full max-w-7xl">
-        <h1 className="flex justify-center items-center w-full max-w-6xl bg-[#a98a69] p-8 text-4xl border-b border-black">
+        <h1
+          className="flex justify-center items-center w-full max-w-6xl bg-[#a98a69] p-8 text-4xl border-b border-black">
           Platformada Neler Var?
         </h1>
-        <div className="grid grid-cols-1 lg:grid-cols-6 justify-center items-center md:flex-row h-full w-full bg-[#a98a69] gap-4 p-4 text-center">
+        <div
+          className="grid grid-cols-1 lg:grid-cols-6 justify-center items-center md:flex-row h-full w-full bg-[#a98a69] gap-4 p-4 text-center">
           <div className="flex flex-col justify-center items-center h-full w-full gap-2 p-4 bg-[#f5f5dc]">
-            <GiMeditation size="74" />
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="74.000000pt" height="74.000000pt"
+                 viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+
+              <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+                <path
+                  d="M2500 5113 c-319 -31 -529 -63 -784 -120 -441 -97 -705 -240 -908 -492 -158 -196 -263 -412 -327 -672 -37 -152 -54 -201 -116 -343 -85 -195 -75 -264 57 -401 43 -45 78 -90 78 -99 0 -9 -20 -56 -45 -105 -88 -175 -208 -367 -340 -541 -84 -110 -102 -142 -111 -199 -14 -89 54 -180 187 -250 102 -54 129 -77 129 -113 0 -18 -21 -71 -47 -122 -33 -65 -46 -104 -47 -135 -1 -40 3 -47 58 -98 54 -50 58 -56 47 -79 -6 -14 -11 -47 -11 -73 0 -61 20 -87 112 -146 l70 -46 -6 -72 c-18 -217 -18 -232 -1 -296 45 -174 148 -269 300 -278 60 -4 96 2 245 42 96 25 262 75 369 110 l194 64 28 -20 c107 -76 236 -296 299 -510 14 -48 31 -82 48 -98 l26 -24 1098 5 1099 4 26 27 c48 47 35 96 -73 267 -122 194 -214 524 -244 873 -12 138 -1 292 32 432 33 146 34 160 4 189 -28 29 -79 34 -108 12 -39 -29 -81 -197 -99 -394 -30 -331 86 -885 242 -1156 21 -38 37 -71 34 -74 -3 -3 -436 -8 -963 -10 l-958 -5 -18 59 c-41 132 -147 327 -239 437 -22 26 -38 50 -35 52 2 3 76 29 164 60 87 30 191 71 231 89 212 101 331 239 336 392 2 65 -27 104 -78 104 -39 0 -85 -34 -85 -61 0 -106 -80 -200 -231 -272 -176 -85 -1053 -374 -1267 -418 -168 -35 -251 97 -208 331 19 103 12 166 -25 226 -24 39 -82 92 -115 104 -29 11 -30 27 -4 60 22 28 26 89 8 111 -10 12 -72 62 -117 96 -2 1 13 36 34 77 90 178 46 314 -132 404 -67 35 -143 88 -143 101 0 5 45 70 101 145 131 176 244 358 330 529 56 112 69 147 69 185 0 72 -39 144 -120 221 -54 52 -70 74 -70 95 0 16 21 76 46 135 60 136 78 190 114 335 73 290 170 482 347 683 114 131 305 246 527 317 273 89 885 186 1160 186 406 -1 792 -141 1177 -427 52 -38 132 -104 177 -146 73 -69 86 -77 121 -77 47 0 81 35 81 82 0 87 -380 380 -693 534 -224 110 -430 170 -666 194 -96 9 -291 11 -371 3z"/>
+                <path
+                  d="M1525 4589 c-248 -83 -430 -235 -569 -475 -64 -111 -102 -206 -141 -361 -29 -109 -33 -137 -24 -163 13 -36 35 -50 82 -50 53 0 71 29 106 167 57 231 140 384 280 523 99 97 188 152 329 201 103 35 129 62 117 119 -15 67 -64 78 -180 39z"/>
+                <path
+                  d="M3240 4551 c-120 -128 -269 -358 -352 -545 -22 -50 -42 -93 -44 -95 -2 -2 -39 20 -83 48 -171 110 -391 207 -577 257 -104 28 -143 24 -165 -18 -25 -47 -42 -192 -46 -417 l-5 -233 -97 2 c-53 2 -138 2 -189 1 -90 -1 -95 -2 -124 -31 -29 -30 -30 -33 -24 -93 13 -113 47 -260 92 -397 218 -657 658 -999 1364 -1060 147 -12 638 -6 760 10 574 74 956 339 1184 821 84 179 148 388 177 586 14 93 7 121 -35 148 -21 14 -56 17 -212 17 l-187 0 6 99 c11 181 -22 500 -57 554 -23 34 -58 38 -149 14 -175 -44 -422 -153 -585 -258 l-76 -50 -56 117 c-97 200 -262 446 -364 540 -64 59 -87 57 -156 -17z m214 -331 c72 -109 138 -231 186 -342 l33 -77 -58 -63 c-94 -102 -173 -215 -225 -323 -26 -55 -51 -111 -55 -125 l-8 -25 -10 25 c-70 172 -160 315 -277 443 -53 58 -53 59 -41 95 44 127 171 357 274 496 l51 69 33 -39 c19 -21 62 -81 97 -134z m-989 -291 c117 -57 281 -162 376 -242 227 -189 379 -523 395 -862 l6 -120 -46 83 c-112 204 -271 386 -429 492 -163 109 -377 199 -550 231 l-66 12 -7 55 c-8 62 1 416 11 449 l7 22 100 -35 c56 -20 147 -58 203 -85z m2043 -116 c3 -111 1 -222 -2 -246 l-7 -45 -67 -12 c-99 -18 -244 -66 -351 -116 -265 -124 -473 -325 -627 -606 l-46 -83 6 112 c16 322 136 613 333 810 151 151 398 300 643 387 86 31 96 32 104 18 6 -10 12 -108 14 -219z m-2457 -449 c538 -75 875 -334 1070 -824 40 -100 109 -349 109 -392 0 -20 -3 -21 -122 -14 -632 36 -1006 258 -1234 732 -53 112 -115 295 -142 422 l-20 92 114 0 c62 0 163 -7 225 -16z m2867 -76 c-28 -132 -90 -314 -147 -432 -186 -382 -470 -597 -906 -685 -96 -19 -309 -41 -403 -41 l-45 0 7 43 c40 250 148 511 292 704 130 174 239 264 436 358 197 94 418 142 659 144 l127 1 -20 -92z"/>
+                <path d="M719 3397 c-62 -48 -40 -137 37 -153 44 -9 94 35 94 82 0 65 -81 109 -131 71z"/>
+              </g>
+            </svg>
             <p>Mindfulness Koçluğu</p>
           </div>
           <div className="flex flex-col justify-center items-center h-full w-full gap-2 p-4 bg-[#f5f5dc]">
-            <MdPsychology size="74" />
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="74.000000pt" height="74.000000pt"
+                 viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+
+              <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+                <path
+                  d="M1982 4708 l3 -413 287 -3 288 -2 2 -249 3 -249 298 249 299 249 399 0 399 0 0 415 0 415 -990 0 -990 0 2 -412z m1818 -3 l0 -245 -346 0 -346 0 -186 -155 -187 -156 -5 153 -5 153 -287 3 -288 2 0 245 0 245 825 0 825 0 0 -245z"/>
+                <path d="M2312 4708 l3 -83 80 0 80 0 3 83 3 82 -86 0 -86 0 3 -82z"/>
+                <path d="M2642 4708 l3 -83 328 -3 327 -2 0 85 0 85 -330 0 -331 0 3 -82z"/>
+                <path d="M3470 4705 l0 -85 80 0 80 0 0 85 0 85 -80 0 -80 0 0 -85z"/>
+                <path
+                  d="M1684 3861 c-154 -44 -280 -164 -336 -319 -16 -45 -22 -90 -25 -207 -7 -218 19 -314 122 -440 45 -55 46 -56 43 -123 l-3 -67 -190 -55 c-204 -59 -242 -78 -300 -141 -72 -80 -80 -110 -83 -331 l-4 -198 -164 0 -164 0 0 -245 0 -245 80 0 80 0 0 -660 0 -660 -370 0 -370 0 0 -85 0 -85 2560 0 2560 0 0 85 0 85 -460 0 c-431 0 -460 1 -460 18 0 9 -14 150 -30 312 -16 162 -30 304 -30 316 0 16 10 23 49 32 97 22 181 71 261 151 83 84 122 148 151 249 18 63 19 105 19 649 l0 583 -164 0 -164 0 -4 103 c-3 89 -7 108 -31 149 -14 25 -47 64 -73 87 l-46 40 40 48 c90 109 112 185 112 398 0 127 -4 172 -19 221 -78 256 -349 407 -603 335 -169 -49 -300 -181 -349 -356 -10 -34 -14 -101 -13 -210 1 -173 14 -235 70 -332 35 -59 142 -156 203 -184 l52 -23 -223 -223 -223 -223 -232 0 -233 0 0 28 c0 40 -52 141 -95 186 -51 52 -105 75 -305 132 l-170 48 0 74 c0 71 1 75 38 117 50 57 88 128 107 200 21 84 21 342 -1 416 -81 271 -349 425 -610 350z m267 -178 c136 -59 199 -179 199 -378 0 -205 -59 -318 -199 -383 -82 -38 -193 -38 -272 1 -74 36 -140 108 -168 180 -18 49 -21 79 -21 202 0 120 3 153 20 198 39 103 130 180 240 203 70 15 130 8 201 -23z m1947 15 c81 -20 163 -95 205 -185 20 -43 22 -64 22 -208 0 -151 -1 -163 -26 -215 -36 -78 -80 -124 -150 -159 -139 -69 -293 -42 -394 71 -67 73 -79 115 -83 277 -4 164 4 210 55 288 82 125 212 171 371 131z m-2083 -963 c55 0 115 4 133 8 l32 9 0 -45 c0 -55 -30 -96 -93 -126 -55 -26 -92 -26 -142 0 -63 32 -95 75 -95 127 l0 45 33 -9 c17 -5 77 -9 132 -9z m2120 -40 c18 -17 25 -35 25 -62 0 -36 -12 -50 -307 -345 l-308 -308 -438 0 c-461 0 -484 2 -501 45 -9 24 -7 64 4 85 19 36 61 40 459 40 l385 0 286 285 c285 283 287 285 329 285 31 0 48 -6 66 -25z m185 -1183 c-21 -87 -89 -157 -176 -181 -24 -7 -166 -11 -381 -11 l-343 0 0 85 0 85 125 0 125 0 0 187 0 188 304 305 c286 287 341 351 348 407 2 10 4 -216 6 -502 2 -343 -1 -535 -8 -563z m-1636 914 c31 -20 66 -72 66 -98 0 -15 -10 -18 -62 -18 -103 -1 -185 -49 -231 -135 -17 -31 -22 -57 -22 -117 l1 -78 -584 0 -584 0 4 178 c5 256 6 258 264 333 93 26 175 49 182 49 7 0 41 -24 76 -54 73 -62 140 -88 224 -87 97 1 173 34 245 109 l38 39 178 -51 c98 -29 190 -60 205 -70z m1974 -613 c-3 -492 -3 -499 -26 -555 -44 -109 -131 -196 -240 -240 -56 -22 -65 -23 -514 -26 l-458 -3 0 85 0 85 383 3 382 3 67 32 c88 41 160 113 201 201 l32 67 3 423 3 422 85 0 85 0 -3 -497z m-1158 -78 l0 -85 -1280 0 -1280 0 0 78 c0 43 3 82 7 85 3 4 579 7 1280 7 l1273 0 0 -85z m-245 -330 l0 -80 -867 -3 -868 -2 0 -80 0 -80 868 -2 867 -3 3 -492 2 -493 -103 0 -102 0 -83 165 -82 165 -710 0 -710 0 -82 -165 -83 -165 -97 0 -98 0 0 495 0 495 125 0 125 0 0 80 0 80 -125 0 -125 0 0 85 0 85 1073 -2 1072 -3 0 -80z m589 -612 c3 -21 17 -157 31 -303 14 -146 27 -277 30 -292 l5 -28 -245 0 -245 0 0 330 0 330 209 0 209 0 6 -37z m330 0 c3 -21 17 -157 31 -303 14 -146 27 -277 30 -292 l5 -28 -85 0 c-74 0 -85 2 -85 18 0 9 -14 150 -30 312 -16 162 -30 303 -30 313 0 15 10 17 79 17 l79 0 6 -37z m-1344 -543 l40 -80 -690 0 -690 0 40 80 40 80 610 0 610 0 40 -80z"/>
+              </g>
+            </svg>
             <p>Piskolojik Danışmanlık</p>
           </div>
           <div className="flex flex-col justify-center items-center h-full w-full gap-2 p-4 bg-[#f5f5dc]">
@@ -43,7 +81,7 @@ export default function Services() {
             </svg>
             <p>Sınav Kaygısı ve Sınav Tercih Danışmanlığı</p>
           </div>
-          <div className="flex flex-col justify-center items-center w-full gap-2 p-4 bg-[#f5f5dc]">
+          <div className="flex flex-col justify-center items-center h-full w-full gap-2 p-4 bg-[#f5f5dc]">
             <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="74.000000pt" height="74.000000pt"
                  viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
 
@@ -58,11 +96,40 @@ export default function Services() {
                   d="M1135 4205 c-38 -37 -33 -77 16 -130 l42 -45 -282 0 -282 0 -24 -25 c-27 -26 -31 -51 -14 -88 20 -44 44 -47 331 -47 l271 0 -42 -45 c-47 -51 -53 -88 -21 -123 24 -26 62 -37 84 -25 8 4 69 61 135 127 159 155 159 142 -2 303 -107 107 -127 123 -155 123 -22 0 -41 -9 -57 -25z"/>
               </g>
             </svg>
-            <p>Beden ve Nefes Farkındalığı</p>
+            <p>Nefes ve Beden Farkındalığı</p>
           </div>
           <div className="flex flex-col justify-center items-center h-full w-full gap-2 p-4 bg-[#f5f5dc]">
-            <GrYoga size="74"/>
-            <p>Mindfulness Temelli̇ Nefes ve Yoga Dersleri̇</p>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="74.000000pt" height="74.000000pt"
+                 viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+
+              <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+                <path d="M2524 4741 c-65 -28 -84 -113 -35 -162 91 -91 230 36 144 131 -30 32 -75 45 -109 31z"/>
+                <path
+                  d="M2752 4608 c-21 -21 -13 -38 47 -93 123 -115 182 -302 148 -475 -22 -111 -60 -184 -137 -261 -85 -86 -151 -113 -260 -107 -96 6 -158 35 -231 108 -189 188 -185 535 7 727 56 56 62 71 42 91 -21 21 -37 13 -97 -47 -65 -65 -121 -166 -146 -266 -19 -76 -19 -214 0 -290 33 -125 115 -259 190 -308 35 -22 35 -22 35 -98 0 -148 -68 -225 -225 -254 -102 -18 -128 -26 -195 -60 -128 -64 -235 -178 -286 -305 -15 -38 -52 -197 -90 -390 -35 -179 -71 -343 -79 -365 -18 -50 -53 -83 -265 -257 -200 -164 -299 -266 -454 -465 -65 -84 -123 -156 -129 -160 -7 -5 -106 -10 -220 -13 -205 -5 -209 -5 -228 -29 -10 -13 -19 -37 -19 -54 0 -47 97 -138 179 -167 33 -13 61 -26 61 -30 0 -4 -9 -15 -19 -24 -69 -63 -89 -242 -38 -348 65 -134 289 -276 546 -346 92 -25 107 -26 346 -26 412 1 800 56 1243 176 81 22 83 22 145 5 426 -120 850 -180 1262 -181 239 0 254 1 346 26 255 69 480 212 545 344 35 72 42 177 17 248 -22 60 -45 78 -69 54 -16 -16 -16 -21 1 -74 53 -170 -40 -301 -307 -429 -132 -64 -263 -95 -423 -102 -335 -14 -938 62 -1265 159 l-44 14 89 27 c113 34 198 44 455 53 132 4 216 11 237 19 35 15 49 48 39 90 l-6 25 204 0 c197 0 205 1 211 20 15 47 1 50 -276 50 l-258 0 -143 87 c-96 58 -153 86 -173 86 -19 0 -80 -29 -170 -82 -166 -98 -167 -98 -163 -125 5 -38 41 -27 183 55 77 44 143 81 147 82 8 3 377 -216 378 -224 0 -3 -93 -9 -207 -13 -302 -10 -356 -18 -560 -82 -454 -141 -790 -206 -1223 -235 -242 -16 -428 -8 -552 24 -213 56 -432 190 -491 302 -16 30 -22 58 -22 115 0 64 4 82 29 128 16 28 44 63 61 77 29 22 39 24 102 18 56 -4 78 -2 114 14 36 16 530 410 837 667 79 66 153 152 200 233 17 29 77 166 133 305 55 139 104 257 107 262 14 24 78 -218 92 -349 13 -112 2 -248 -27 -365 -16 -66 -137 -391 -168 -449 -32 -63 -63 -69 -400 -77 -350 -8 -379 -11 -383 -41 -2 -13 4 -25 15 -31 18 -9 597 3 679 13 50 7 112 46 141 88 29 43 157 376 183 476 32 125 43 267 30 390 -12 119 -29 192 -86 364 -39 120 -58 147 -86 124 -8 -7 -68 -145 -132 -307 -65 -162 -132 -320 -148 -350 -42 -75 -116 -166 -174 -216 -222 -186 -823 -668 -843 -676 -39 -15 -250 6 -305 30 -44 20 -126 87 -126 103 0 5 87 9 193 9 168 0 197 2 227 19 22 11 78 74 155 172 160 207 255 303 477 486 197 162 232 197 255 251 8 19 45 189 84 380 45 227 78 365 95 401 36 80 99 156 169 206 82 59 140 82 249 101 105 18 150 39 201 91 56 57 77 108 83 191 l5 73 31 -8 c40 -10 194 -10 222 0 20 7 22 4 26 -65 6 -85 30 -139 85 -193 52 -50 98 -72 179 -85 147 -23 245 -70 336 -162 100 -102 117 -151 197 -548 38 -190 73 -354 77 -365 22 -58 72 -110 257 -263 226 -188 337 -302 495 -507 71 -93 119 -146 142 -157 30 -15 64 -18 228 -18 105 0 192 -4 192 -8 0 -4 -17 -24 -37 -44 -58 -57 -117 -77 -252 -90 -101 -9 -123 -9 -149 5 -17 8 -222 171 -456 362 -436 355 -486 403 -554 525 -16 30 -83 188 -148 350 -64 162 -124 300 -132 307 -30 25 -47 -3 -95 -154 -61 -194 -64 -210 -77 -333 -12 -123 -1 -269 29 -388 27 -104 156 -438 187 -483 13 -19 43 -46 67 -59 46 -26 93 -29 708 -45 l256 -7 79 -64 c114 -93 138 -100 287 -86 160 14 222 37 299 111 64 63 74 99 39 142 -19 24 -23 24 -228 29 -114 3 -213 9 -220 13 -7 4 -65 76 -130 160 -153 199 -256 304 -493 500 -107 89 -203 177 -214 195 -11 21 -45 165 -87 376 -40 201 -78 369 -93 407 -51 126 -158 240 -286 304 -67 34 -93 42 -195 60 -106 20 -160 54 -197 124 -23 44 -28 66 -28 125 0 68 2 74 26 87 47 25 136 132 171 205 109 229 65 504 -108 677 -68 68 -85 77 -107 55z m498 -2331 c107 -271 144 -346 206 -424 60 -77 72 -87 402 -355 155 -127 281 -232 279 -234 -2 -2 -178 1 -392 7 -435 12 -457 16 -490 80 -31 58 -152 383 -169 449 -46 188 -40 385 19 591 19 67 35 123 35 127 0 24 30 -43 110 -241z"/>
+                <path
+                  d="M2489 4381 c-39 -40 -40 -89 -1 -132 24 -26 36 -32 72 -32 36 0 48 6 72 32 39 43 38 92 -1 132 -23 23 -38 29 -71 29 -33 0 -48 -6 -71 -29z"/>
+                <path
+                  d="M1457 3553 c-16 -16 -3 -40 61 -111 37 -41 81 -91 97 -110 25 -28 35 -33 53 -27 39 12 22 47 -72 154 -85 96 -117 117 -139 94z"/>
+                <path
+                  d="M3525 3460 c-95 -108 -112 -143 -73 -155 18 -6 28 -1 53 27 16 19 61 69 98 111 72 80 82 110 37 115 -21 2 -41 -14 -115 -98z"/>
+                <path
+                  d="M2489 3491 c-40 -40 -40 -89 0 -133 24 -27 36 -33 71 -33 35 0 47 6 72 34 26 29 30 39 25 75 -12 84 -108 117 -168 57z"/>
+                <path d="M2511 2646 c-87 -48 -50 -186 49 -186 51 0 100 49 100 99 0 75 -83 124 -149 87z"/>
+                <path
+                  d="M1170 2629 c-96 -9 -126 -23 -114 -54 9 -23 29 -24 156 -14 167 13 170 14 166 47 -3 26 -6 27 -58 28 -30 1 -98 -2 -150 -7z"/>
+                <path
+                  d="M3747 2633 c-4 -3 -7 -17 -7 -29 0 -16 7 -25 23 -29 41 -9 268 -24 282 -19 20 8 25 30 12 48 -16 21 -292 47 -310 29z"/>
+                <path
+                  d="M2489 1951 c-40 -40 -40 -89 0 -133 24 -27 36 -33 71 -33 35 0 47 6 72 34 26 29 30 39 25 75 -12 84 -108 117 -168 57z"/>
+                <path
+                  d="M2533 1373 c-35 -7 -73 -59 -73 -100 0 -25 8 -43 29 -64 91 -90 231 37 144 130 -29 30 -61 41 -100 34z"/>
+                <path
+                  d="M2001 978 c-68 -36 -94 -64 -81 -88 14 -26 24 -25 84 9 l51 28 90 -51 90 -51 -506 -3 c-543 -2 -540 -2 -524 -52 6 -20 11 -20 565 -20 l560 0 15 24 c27 41 5 64 -132 144 -69 39 -135 74 -147 77 -11 3 -41 -5 -65 -17z"/>
+                <path
+                  d="M2489 841 c-40 -40 -40 -89 0 -133 24 -27 36 -33 71 -33 35 0 47 6 71 33 40 44 40 93 0 133 -41 41 -101 41 -142 0z"/>
+              </g>
+            </svg>
+            <p>Mindfulness Temelli Nefes ve Yoga Dersleri</p>
           </div>
           <div className="flex flex-col justify-center items-center h-full w-full gap-2 p-4 bg-[#f5f5dc]">
             <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="74.000000pt" height="74.000000pt"
@@ -73,6 +140,97 @@ export default function Services() {
               </g>
             </svg>
             <p>Somatik Dans</p>
+          </div>
+        </div>
+        <div className="flex flex-col justify-center items-center w-full bg-[#a98a69]">
+          <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center w-full bg-[#f5f5dc] p-4 gap-4">
+            <div className="flex flex-col justify-center items-center w-full gap-4">
+              <h2 className="text-3xl font-bold">Mindfulness Koçluğu</h2>
+              <p className="text-lg text-justify">
+                Mindfulness Koçu, bireylerin farkındalık egzersizleri, stres yönetimi, duygusal denge ve ilişki
+                geliştirme gibi kritik
+                alanlarda derin bir rehberlik sunar. Bu süreçte, bireylerin bedenlerinde ve zihinlerinde neler olup
+                bittiğini anlamalarına ve kabullenmelerine yardımcı olurken, aynı zamanda dönüşümlerine de destek
+                sağlar. Temel hedefleri, bireylerin şimdiki anı daha bilinçli bir şekilde deneyimleyerek kendileriyle
+                sağlam bir bağ kurmalarını ve gerçek ihtiyaçlarını daha net bir şekilde görmelerini sağlamaktır. Bu
+                sayede, genel yaşam kalitelerini artırarak ve ilişkilerini güçlendirerek daha tatmin edici ve mutlu bir
+                yaşam sürmelerine katkıda bulunur. İşte bu yüzden, mindfulness koçu bireylerin içsel potansiyellerini
+                keşfederken daha tatmin edici bir yaşam süreci için bireye alan açan kişidir.
+              </p>
+              <WhatsappButton title="Mindfulness Koçluğu"/>
+            </div>
+            <img className="flex-1" src="https://placehold.co/1080.png" alt="test"/>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center w-full bg-[#f5f5dc] p-4 gap-4">
+            <div className="flex flex-col justify-center items-center w-full gap-4 lg:order-last">
+              <h2 className="text-3xl font-bold">Piskolojik Danışmanlık</h2>
+              <p className="text-lg text-justify">
+                Psikolojik danışman, bireylerin duygusal, zihinsel ve davranışsal sorunlarını anlamalarına ve bunlarla
+                başa çıkmalarına yardımcı olur. İlişki sorunlarına duygusal destek sağlar. Temel görevleri, danışanların
+                yaşadıkları sorunları dinlemek, anlamak, destek sağlamak ve çözüm yolları bulmalarına rehberlik
+                etmektir. psikolojik danışmanlık, kişisel gelişim ve iyileşme yolculuğunda önemli bir destek ve
+                rehberlik kaynağıdır.
+              </p>
+              <WhatsappButton title="Piskolojik Danışmanlık"/>
+            </div>
+            <img className="flex-1" src="https://placehold.co/1080.png" alt="test"/>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center w-full bg-[#f5f5dc] p-4 gap-4">
+            <div className="flex flex-col justify-center items-center w-full gap-4">
+              <h2 className="text-3xl font-bold">Sınav Kaygısı ve Sınav Tercih Danışmanlığı</h2>
+              <p className="text-lg text-justify">
+                Sınav Kaygısı ve Üniversite-Lise Tercih Danışmanlığı, gençleri sınav kaygısından kurtarmak ve
+                geleceklerini şekillendirirken doğru tercihleri yapmalarına yardımcı olmak için özel olarak
+                tasarlanmıştır. Öğrencilere sınav stresiyle başa çıkma stratejileri sunar ve üniversite veya lise
+                tercihlerinde rehberlik eder. Kişisel yetenekleri, ilgi alanları ve hedefleri göz önünde bulundurarak,
+                en uygun eğitim ve kariyer yolunu belirlemelerine yardımcı olur. Öğrencilerimizin başarılı bir geleceğe
+                adım atmaları için gerekli desteği sağlamak için buradayız.
+
+              </p>
+              <WhatsappButton title="Sınav Kaygısı ve Sınav Tercih Danışmanlığı"/>
+            </div>
+            <img className="flex-1" src="https://placehold.co/1080.png" alt="test"/>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center w-full bg-[#f5f5dc] p-4 gap-4">
+            <div className="flex flex-col justify-center items-center w-full gap-4 lg:order-last">
+              <h2 className="text-3xl font-bold">Nefes ve Beden Farkındalığı</h2>
+              <p className="text-lg text-justify">
+                Nefes sinir sistemini olumlu etkilemenin en kısa yoludur. Nasıl nefes aldığın tüm yaşam kaliteni ve
+                bedensel sağlığını doğrudan etkiler. Nefese yapılan yöntemsel bir müdahale yaşam kalitesini ve sağlığı
+                otomatik olarak iyileştirir. Kişiye özel yapılan her seansta beden doğal denge düzeyine biraz daha
+                kavuşur.
+              </p>
+              <WhatsappButton title="Nefes ve Beden Farkındalığı"/>
+            </div>
+            <img className="flex-1" src="https://placehold.co/1080.png" alt="test"/>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center w-full bg-[#f5f5dc] p-4 gap-4">
+            <div className="flex flex-col justify-center items-center w-full gap-4">
+              <h2 className="text-3xl font-bold">Mindfulness Temelli Nefes ve Yoga Dersleri</h2>
+              <p className="text-lg text-justify">
+                Mindfulness temelli nefes ve yoga dersleri, içsel duyulara odaklanarak ve dengeyi keşfetmenin kapılarını
+                aralar. Bu derslerde, nefesin yardımıyla bedensel ve zihinsel süreçlerin içersinde yoga pozları
+                deneyimlenirken bedeni resestleyerek yeniden yapılandırma sürecine girilir. Her ders, sakin bir zihinle
+                başlar ve nefes farkındalığı üzerine odaklanır. Ardından, bedeninizi güçlendirip ve esnetirken
+                nefesinizi yönlendirerek ve farkındalığınızı derinleştirir.
+              </p>
+              <WhatsappButton title="Mindfulness Temelli Nefes ve Yoga Dersleri"/>
+            </div>
+            <img className="flex-1" src="https://placehold.co/1080.png" alt="test"/>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center w-full bg-[#f5f5dc] p-4 gap-4">
+            <div className="flex flex-col justify-center items-center w-full gap-4 lg:order-last">
+              <h2 className="text-3xl font-bold">Somatik Dans</h2>
+              <p className="text-lg text-justify">
+                Somatik dans seansları, bedeninizi keşfetmenin, duygusal ifadenizi serbest bırakmanın ve içsel
+                özgürlüğünüzü kutlamanın bir yoludur. Bu seanslarda, bedeninizi ritimle buluşturarak, duygularınızı
+                dansın diliyle ifade eder ve içsel bilgelikle yeniden bağlantı kurarak, bedeninizin ritmiyle uyumlu
+                olarak dans ederken içsel dünyanıza bir yolculuğa çıkarsınız. .Bedeninizi keşfederken; Kendinizi daha
+                güçlü, daha canlı ve daha özgür hissetmenize ve kendinizi tanımanıza bir alan açar.
+              </p>
+              <WhatsappButton title="Somatik Dans"/>
+            </div>
+            <img className="flex-1" src="https://placehold.co/1080.png" alt="test"/>
           </div>
         </div>
       </div>

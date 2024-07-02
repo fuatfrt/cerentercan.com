@@ -11,7 +11,7 @@ export default function Footer() {
             <p className="hidden lg:block">Facebook</p>
           </a>
           <a className="flex flex-row gap-2" href={data.instagram} target="_blank">
-            <FaInstagram className="text-2xl text-[#c13584]" />
+            <FaInstagram className="text-2xl text-[#fd1d1d]" />
             <p className="hidden lg:block">Instagram</p>
           </a>
           <a className="flex flex-row gap-2" href={`https://wa.me/${data.phoneNumbers.whatsapp}?text=Merhaba,%20`} target="_blank">
