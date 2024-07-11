@@ -1,4 +1,4 @@
-const data: {
+export const data: {
   name: string;
   phoneNumbers: {
     whatsapp: string;
@@ -14,4 +14,21 @@ const data: {
   instagram: `https://www.instagram.com/${process.env.INSTAGRAM_USERNAME || 'username'}`,
 };
 
-export { data };
+export const links = [
+  {
+    name: 'Anasayfa',
+    href: '#',
+  },
+  {
+    name: 'Hakkımda',
+    href: '#hakkımda',
+  },
+  {
+    name: 'Neler Yapıyoruz?',
+    href: '#hizmetler',
+  },
+  {
+    name: 'İletişim',
+    href: '#iletişim',
+  },
+];

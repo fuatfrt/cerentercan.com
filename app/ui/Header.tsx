@@ -1,4 +1,5 @@
 import MobilMenu from "@/app/ui/MobilMenu";
+import {links} from "@/app/lib/content";
 
 export default function Header() {
   return (
@@ -8,10 +9,13 @@ export default function Header() {
           <h1 className="w-full text-lg font-bold">Ceren Tercan</h1>
         </div>
         <>
-          <div className="hidden md:flex flex-row justify-between items-center w-full gap-4">
-            <div>Anasayfa</div>
-            <div>Platformda Neler Var?</div>
-            <div>İletişim</div>
+          <div className="hidden md:flex flex-row justify-center items-center w-full">
+            {
+              links.map((link, index) => (
+                <a
+                  key={index} href={link.href} className="text-white border-l px-4 hover:bg-orange-300">{link.name}</a>
+              ))
+            }
           </div>
           <MobilMenu />
         </>

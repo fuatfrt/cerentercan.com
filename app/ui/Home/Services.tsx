@@ -18,7 +18,7 @@ export default function Services() {
   }
 
   return (
-    <div id="hizmetler" className="flex justify-center items-center h-full w-full py-8">
+    <div id="hizmetler" className="flex justify-center items-center h-full w-full py-16 lg:py-14 border-y border-black">
       <div className="flex flex-col justify-center items-center h-full w-full max-w-7xl">
         <h1
           className="flex justify-center items-center w-full max-w-6xl bg-[#a98a69] p-8 text-4xl border-b border-black">

@@ -1,7 +1,7 @@
 'use client';
 import {useState} from "react";
-import {FaFacebook, FaInstagram, FaPhoneSquareAlt, FaWhatsapp} from "react-icons/fa";
-import {data} from "../lib/content";
+import {FaInstagram, FaWhatsapp} from "react-icons/fa";
+import {data, links} from "../lib/content";
 
 export default function MobilMenu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,9 +24,15 @@ export default function MobilMenu() {
             </p>
           </div>
           <div className="flex flex-col justify-center items-center h-full w-full gap-4 p-4 text-2xl text-black">
-            <a onClick={() => setIsOpen(false)} href="#" className="">Anasayfa</a>
-            <a onClick={() => setIsOpen(false)} href="#content" className="">Platformda Neler Var?</a>
-            <a onClick={() => setIsOpen(false)} href="#" className="">İletişim</a>
+            {
+              links.map((link, index) => (
+                <a
+                  key={index}
+                  href={link.href}
+                  onClick={() => setIsOpen(false)}
+                  className="text-black border-b border-black ">{link.name}</a>
+              ))
+            }
           </div>
           <div className="flex flex-row justify-center items-center w-full gap-4 p-4 mb-16">
             <a className="flex flex-row items-center gap-2 border border-black p-2 rounded-lg"

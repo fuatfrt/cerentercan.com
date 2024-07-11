@@ -1,6 +1,6 @@
 export default function Content() {
   return (
-    <div id="content" className="flex flex-col justify-center items-center h-full w-full max-w-7xl p-4 gap-4">
+    <div id="content" className="lg:hidden flex flex-col justify-center items-center h-full w-full max-w-7xl p-4 gap-4">
       <div className="flex flex-col justify-center items-center h-full w-full gap-2">
         <h2 className="flex justify-center items-center w-full text-2xl font-bold">Karşılaşılan Zorluklar</h2>
         <p className="text-gray-400">Hayatta karşılaşılan problemlere dair yoğun bakış açımız</p>
