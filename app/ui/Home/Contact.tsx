@@ -12,7 +12,7 @@ export default function Contact() {
             </div>
             <div className="flex flex-col justify-center items-center h-full w-full gap-2 border-b">
               <p>Telefon</p>
-              <a className="text-blue-500" href="tel:05535396935">05535396935</a>
+              <a className="text-blue-500" href="tel:05535396935">0553 539 69 35</a>
             </div>
             <div className="flex flex-col justify-center items-center h-full w-full border-b">
               <p>Çalışma Saatleri</p>
