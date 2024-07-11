@@ -5,22 +5,23 @@ export default function Contact() {
         <h1 className="text-2xl font-bold">İletişim</h1>
         <div
           className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center w-full gap-4 divide-black divide-y-2 lg:divide-x-2 lg:divide-y-0">
-          <div className="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 justify-center items-center h-full w-full gap-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 justify-center items-center h-full w-full gap-4 px-4">
             <div className="flex flex-col justify-center items-center h-full w-full gap-2 border-b">
               <p>Adres</p>
-              <p>ceren-tercan@windowslive.com</p>
+              <p>Gazikent, Çocuk Parkı ve Dinlenme Yeri İçi Yolu 35410 Gaziemir/İzmir</p>
             </div>
             <div className="flex flex-col justify-center items-center h-full w-full gap-2 border-b">
               <p>Telefon</p>
-              <p>05535396935</p>
+              <a className="text-blue-500" href="tel:05535396935">05535396935</a>
             </div>
             <div className="flex flex-col justify-center items-center h-full w-full border-b">
               <p>Çalışma Saatleri</p>
               <p>Pazartesi - Cuma: 09:00 - 18:00</p>
               <p>Cumartesi: 10:00 - 17:00</p>
             </div>
-            <div className="flex justify-center items-center h-full w-full">
-              4
+            <div className="flex flex-col justify-center items-center h-full w-full">
+              <p>Mail</p>
+              <a className="text-blue-500" href="mailto:ceren-tercan@windowslive.com">ceren-tercan@windowslive.com</a>
             </div>
           </div>
           <div className="flex justify-center items-center w-full p-2">
