@@ -21,11 +21,11 @@ export default function Services() {
     <div id="hizmetler" className="flex justify-center items-center h-full w-full py-16 lg:py-14 border-y border-black">
       <div className="flex flex-col justify-center items-center h-full w-full max-w-7xl">
         <h1
-          className="flex justify-center items-center w-full max-w-6xl bg-[#a98a69] p-8 text-4xl border-b border-black">
+          className="flex justify-center items-center w-full max-w-6xl bg-[#b3d6d9] p-8 text-4xl border-b border-black">
           Platformada Neler Var?
         </h1>
         <div
-          className="grid grid-cols-1 lg:grid-cols-6 justify-center items-center md:flex-row h-full w-full bg-[#a98a69] gap-4 p-4 text-center">
+          className="grid grid-cols-1 lg:grid-cols-6 justify-center items-center md:flex-row h-full w-full bg-[#b3d6d9] gap-4 p-4 text-center">
           <div className="flex flex-col justify-center items-center h-full w-full gap-2 p-4 bg-[#f5f5dc]">
             <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="74.000000pt" height="74.000000pt"
                  viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">

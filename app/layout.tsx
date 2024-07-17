@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="tr">
-      <body className="flex flex-col h-full min-h-svh w-full bg-slate-100 font-sans">
+      <body className="flex flex-col h-full min-h-dvh w-full bg-[#cde5e7] font-sans">
       <Header />
         {children}
       </body>

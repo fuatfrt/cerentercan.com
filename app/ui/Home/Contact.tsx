@@ -8,7 +8,7 @@ export default function Contact() {
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 justify-center items-center h-full w-full gap-4 px-4">
             <div className="flex flex-col justify-center items-center h-full w-full gap-2 border-b">
               <p>Adres</p>
-              <p>Gazikent, Çocuk Parkı ve Dinlenme Yeri İçi Yolu 35410 Gaziemir/İzmir</p>
+              <p>Gazikent 35410 Gaziemir/İzmir</p>
             </div>
             <div className="flex flex-col justify-center items-center h-full w-full gap-2 border-b">
               <p>Telefon</p>

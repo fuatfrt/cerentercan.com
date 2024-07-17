@@ -1,6 +1,6 @@
 export default function About({id}: {id: string}) {
   return (
-    <div id={id} className="flex justify-center items-center h-full w-full border-y border-black pt-8">
+    <div id={id} className="flex justify-center items-center h-full w-full border-y border-black pt-8 scroll-mt-14">
       <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center w-full py-4 gap-4">
         <div className="flex flex-col justify-start items-center h-full w-full p-4 gap-4">
           <h1 className="text-2xl font-bold">Ceren Tercan</h1>
