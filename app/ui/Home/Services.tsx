@@ -1,4 +1,3 @@
-import {FaWhatsapp} from "react-icons/fa";
 import {services, servicesContent} from "@/app/lib/content";
 import ServiceContentBox from "@/app/ui/Serives/ServiceContentBox";
 import ServiceHeaderBox from "@/app/ui/Serives/ServiceHeaderBox";
