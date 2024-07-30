@@ -2,24 +2,19 @@ export default function Contact() {
   return (
     <div className="flex justify-center items-center h-full w-full border-b border-black py-4">
       <div className="flex flex-col justify-center items-center w-full max-w-7xl gap-4">
-        <h1 className="text-2xl font-bold">İletişim</h1>
+        <h1 className="text-2xl md:text-4xl font-bold">İletişim</h1>
         <div
           className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center w-full gap-4 divide-black divide-y-2 lg:divide-x-2 lg:divide-y-0">
-          <div className="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 justify-center items-center h-full w-full gap-4 px-4">
-            <div className="flex flex-col justify-center items-center h-full w-full gap-2 border-b">
+          <div className="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 justify-center items-center h-full w-full gap-4 lg:gap-0 px-4">
+            <div className="flex flex-col justify-center items-center h-full w-full gap-2 border-black border-b">
               <p>Adres</p>
               <p>Gazikent 35410 Gaziemir/İzmir</p>
             </div>
-            <div className="flex flex-col justify-center items-center h-full w-full gap-2 border-b">
+            <div className="flex flex-col justify-center items-center h-full w-full gap-2 border-black border-b lg:border-l">
               <p>Telefon</p>
               <a className="text-blue-500" href="tel:05535396935">0553 539 69 35</a>
             </div>
-            <div className="flex flex-col justify-center items-center h-full w-full border-b">
-              <p>Çalışma Saatleri</p>
-              <p>Pazartesi - Cuma: 09:00 - 18:00</p>
-              <p>Cumartesi: 10:00 - 17:00</p>
-            </div>
-            <div className="flex flex-col justify-center items-center h-full w-full">
+            <div className="flex flex-col justify-center items-center h-full w-full lg:col-span-2">
               <p>Mail</p>
               <a className="text-blue-500" href="mailto:ceren-tercan@windowslive.com">ceren-tercan@windowslive.com</a>
             </div>
