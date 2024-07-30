@@ -1,7 +1,6 @@
 import MobilMenu from "@/app/ui/MobilMenu";
 import {links} from "@/app/lib/content";
 import {FaPhone} from "react-icons/fa6";
-import Image from "next/image";
 
 export default function Header() {
   return (
