@@ -4,22 +4,6 @@ import ServiceContentBox from "@/app/ui/Serives/ServiceContentBox";
 import ServiceHeaderBox from "@/app/ui/Serives/ServiceHeaderBox";
 
 export default function Services() {
-  function WhatsappButton({title}: { title: string }) {
-    return (
-      <div className="flex justify-center items-center w-full">
-        <button
-          className="flex flex-row justify-center items-center p-2 gap-2 rounded-lg shadow-2xl border border-black">
-          <FaWhatsapp className="text-2xl text-[#25d366]"/>
-          <a
-            className="flex w-full"
-            target="_blank"
-            href={`https://wa.me/${process.env.WHATSAPP_NUMBER}?text=${title}%20hakkında%20bilgi%20almak%20istiyorum.`}>
-            {title} Destek Hattı
-          </a>
-        </button>
-      </div>
-    );
-  }
 
   return (
     <div id="hizmetler" className="flex justify-center items-center h-full w-full py-16 lg:py-14 border-y border-black">
