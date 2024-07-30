@@ -3,7 +3,7 @@ import {data} from "@/app/lib/content";
 
 export default function Footer() {
   return (
-    <footer className="flex justify-center items-center w-full bg-[#b08c71] text-white">
+    <footer className="flex justify-center items-center w-full bg-primary text-white">
       <div className="flex flex-col lg:flex-row justify-between items-center w-full max-w-7xl text-white p-4">
         <div className="flex justify-between items-center gap-4 py-4">
           <a className="flex flex-row gap-2" href="https://www.facebook.com/cerentercan" target="_blank">
