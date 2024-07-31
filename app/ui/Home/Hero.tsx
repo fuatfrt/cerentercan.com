@@ -17,10 +17,11 @@ export default function Hero() {
             </p>
           </div>
         </div>
-        <video autoPlay={true} loop={true} muted={true} className="absolute w-auto min-w-full min-h-full max-w-none">
-          <source src="https://videos.pexels.com/video-files/1448735/1448735-hd_1366_720_24fps.mp4"
-                  type="video/mp4"/>
-        </video>
+        <img
+          className="absolute object-cover h-full w-full z-0"
+          src="/background.JPG"
+          alt="Ceren Tercan"
+        />
       </div>
     </div>
   );
