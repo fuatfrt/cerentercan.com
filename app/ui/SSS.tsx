@@ -11,8 +11,8 @@ export default function Sss({id}: { id: string }) {
           </div>
         </div>
         <div className="hidden lg:flex justify-center items-center w-full aspect-square">
-          <img className="h-auto max-h-full"
-               src="https://cerentercan.com/wp-content/uploads/2024/05/1000041218-scaled.jpg" alt="Ceren Tercan"/>
+          <img className="h-auto max-h-full rounded-xl"
+               src="/sss.jpg" alt="Ceren Tercan"/>
         </div>
       </div>
     </div>
