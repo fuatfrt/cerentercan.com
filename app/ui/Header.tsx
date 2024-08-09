@@ -14,12 +14,6 @@ export default function Header() {
           />
           <a href="/" className="w-full text-lg font-black text-[#fff]">Ceren Tercan</a>
         </div>
-        {/*<a*/}
-        {/*  className="flex md:hidden flex-row justify-center items-center h-full w-full gap-2 "*/}
-        {/*  href={`tel:${process.env.NEXT_PUBLIC_PHONE_NUMBER}`}>*/}
-        {/*  <FaPhone className=""/>*/}
-        {/*  {process.env.NEXT_PUBLIC_PHONE_NUMBER}*/}
-        {/*</a>*/}
         <>
           <div className="hidden md:flex flex-row justify-center items-center h-full w-full gap-4 text-nowrap">
             {

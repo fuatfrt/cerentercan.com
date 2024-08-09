@@ -23,8 +23,8 @@ export default function About({id}: { id: string }) {
           </div>
         </div>
         <div className="flex justify-center items-center w-full aspect-square">
-          <img className="h-auto max-h-full"
-               src="https://cerentercan.com/wp-content/uploads/2024/05/1000041218-scaled.jpg" alt="Ceren Tercan"/>
+          <img className="h-auto max-h-full rounded-2xl"
+               src="/ceren_tercan.JPG" alt="Ceren Tercan"/>
         </div>
       </div>
     </div>

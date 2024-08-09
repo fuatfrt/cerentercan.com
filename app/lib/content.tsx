@@ -24,12 +24,12 @@ export const links = [
     href: '#hakkımda',
   },
   {
-    name: 'Neler Yapıyoruz?',
+    name: 'Hizmetlerimiz',
     href: '#hizmetler',
   },
   {
     name: 'İletişim',
-    href: '#iletişim',
+    href: '#iletisim',
   },
 ];
 
@@ -73,7 +73,7 @@ export const services = [
     link: "#psikolojik-danismanlik"
   },
   {
-    title: "Sınav Kaygısı ve Sınav Tercih Danışmanlığı",
+    title: "Öğrenci Koçluğu ve YKS-LGS Tercih Danışmanlığı",
     Icon: () => (
       <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="74.000000pt" height="74.000000pt"
            viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
@@ -96,7 +96,7 @@ export const services = [
         </g>
       </svg>
     ),
-    link: "#sinav-kaygisi-ve-sinav-tercih-danismanligi"
+    link: "#ogrenci-koclugu-ve-yks-lgs-tercih-danismanligi"
   },
   {
     title: "Nefes ve Beden Farkındalığı",
@@ -173,42 +173,53 @@ export const servicesContent = [
   {
     link: "mindfulness-koclugu",
     title: "Mindfulness Koçluğu",
-    description: "Mindfulness Koçu, bireylerin farkındalık egzersizleri, stres yönetimi, duygusal denge ve ilişki geliştirme gibi kritik alanlarda derin bir rehberlik sunar. Bu süreçte, bireylerin bedenlerinde ve zihinlerinde neler olup bittiğini anlamalarına ve kabullenmelerine yardımcı olurken, aynı zamanda dönüşümlerine de destek sağlar. Temel hedefleri, bireylerin şimdiki anı daha bilinçli bir şekilde deneyimleyerek kendileriyle sağlam bir bağ kurmalarını ve gerçek ihtiyaçlarını daha net bir şekilde görmelerini sağlamaktır. Bu sayede, genel yaşam kalitelerini artırarak ve ilişkilerini güçlendirerek daha tatmin edici ve mutlu bir yaşam sürmelerine katkıda bulunur. İşte bu yüzden, mindfulness koçu bireylerin içsel potansiyellerini keşfederken daha tatmin edici bir yaşam süreci için bireye alan açan kişidir.",
-    image: "https://placehold.co/1080.png"
+    description: "Bireylerin kendisiyle açık yargısız ve arkadaşça ilişki kurarak öncelikle kişinin kendisiyle olan ilişkisini iyileştirir. Bireylerin bedenlerinde ve zihinlerinde neler olup bittiğini anlamalarına ve kabullenmelerine yardımcı olurken, yaşamlarında tekrarlayan zorlayıcı deneyimlerin olumlu anlamda dönüşümüne de destek sağlar. İlişkiler, kariyer, bedenle olan ilişki, hedefler üzerine çalışır. Temel hedefleri, bireylerin şimdiki anı daha bilinçli bir şekilde deneyimleyerek kendileriyle sağlam bir bağ kurmalarını ve gerçek ihtiyaçlarını daha net bir şekilde görerek eylemde bulunmalarını sağlamaktır.",
+    image: "/services/mindfulness_koclugu.jpeg"
   },
   {
-    link: "piskolojik-danismanlik",
-    title: "Piskolojik Danışmanlık",
-    description: "Psikolojik danışman, bireylerin duygusal, zihinsel ve davranışsal sorunlarını anlamalarına ve bunlarla başa çıkmalarına yardımcı olur. İlişki sorunlarına duygusal destek sağlar. Temel görevleri, danışanların yaşadıkları sorunları dinlemek, anlamak, destek sağlamak ve çözüm yolları bulmalarına rehberlik etmektir. Psikolojik danışmanlık, kişisel gelişim ve iyileşme yolculuğunda önemli bir destek ve rehberlik kaynağıdır.",
-    image: "https://placehold.co/1080.png"
+    link: "psikolojik-danismanlik",
+    title: "Psikolojik Danışmanlık",
+    description: "Bireylerin duygusal, zihinsel ve davranışsal sorunlarını anlayıp çözmelerine yardımcı olan profesyonel bir destek sürecidir. Bu süreçte Danışman bireylerin; stres,  depresyon, anksiyete, ilişki problemleri gibi çeşitli konularda rehberlik eder.  Bireyin ihtiyaçlarına ve hedeflerine uygun stratejiler ve teknikler kullanarak danışanların sorunlarına çözüm bulmalarını sağlar ve yaşam kalitelerini artırmaya katkıda bulunur.",
+    image: "/services/psikolojik_danismanlik.jpg"
   },
   {
-    link: "ogrenci-koclugu-ve-sinav-tercih-danismanligi",
-    title: "Öğrenci Koçluğu ve Sınav Tercih Danışmanlığı",
-    description: "Sınav Kaygısı ve Üniversite-Lise Tercih Danışmanlığı, gençleri sınav kaygısından kurtarmak ve geleceklerini şekillendirirken doğru tercihleri yapmalarına yardımcı olmak için özel olarak tasarlanmıştır. Öğrencilere sınav stresiyle başa çıkma stratejileri sunar ve üniversite veya lise tercihlerinde rehberlik eder. Kişisel yetenekleri, ilgi alanları ve hedefleri göz önünde bulundurarak, en uygun eğitim ve kariyer yolunu belirlemelerine yardımcı olur. Öğrencilerimizin başarılı bir geleceğe adım atmaları için gerekli desteği sağlamak için buradayız.",
-    image: "https://placehold.co/1080.png"
+    link: "ogrenci-koclugu-ve-yks-lgs-tercih-danismanligi",
+    title: "Öğrenci Koçluğu ve YKS-LGS Tercih Danışmanlığı",
+    description: "<b>ÖĞRENCİ KOÇLUĞU</b>\n" +
+      "Öğrenci Koçluğu, öğrencilerin okul hayatını rahatlıkla yönetebilmelerini ve kendilerine has bir disiplin anlayışı benimseyerek eğitim süreçlerini sağlıklı geçirebilmeleri için profesyonel destek sunar. Öğrencilere zaman yönetimi, motivasyon, sınav kaygısı, çalışma teknikleri ve kariyer planlaması konusunda rehberlik eder. Özellikle sınav grubu öğrencilerinin sınav kaygısını ve sürecini anlama, yönetme becerilerini geliştirir. Sınav stresiyle başa çıkma stratejileri sunarak, sınava rahat bir süreç içinde hazırlanmalarına yardımcı olur. \n" +
+      "\n<b>YKS-LGS (Üniversite-Lise) TERCİH DANIŞMANLIĞI</b>\n" +
+      "Gençlerin geleceklerini şekillendirirken doğru tercihleri yapmalarına yardımcı olmak için özel olarak tasarlanmıştır. Doğru Tercih yapmak, sınavdan iyi bir puan almak kadar önemlidir. İyi bir tercih sıralaması sizi yaşamak istediğiniz en yüksek hayalinizi gerçekleştirmenize alan açar.. Kişisel yetenekler, ilgi alanları ve hedefler göz önünde bulundurularak, tercih süreci yürütülür. Misyonumuz; Öğrencilerimizin başarılı bir geleceğe adım atmaları için gerekli desteği sunmaktır.\n",
+    image: "/services/ogrenci_koclugu_ve_yks_lgs_tercih_danismanligi.jpeg"
   },
   {
     link: "nefes-ve-beden-farkindaligi",
     title: "Nefes ve Beden Farkındalığı",
-    description: "Nefes sinir sistemini olumlu etkilemenin en kısa yoludur. Nasıl nefes aldığın tüm yaşam kaliteni ve bedensel sağlığını doğrudan etkiler. Nefese yapılan yöntemsel bir müdahale yaşam kalitesini ve sağlığı otomatik olarak iyileştirir. Kişiye özel yapılan her seansta beden doğal denge düzeyine biraz daha kavuşur.",
-    image: "https://placehold.co/1080.png"
+    description: "Nefes sinir sistemini olumlu etkilemenin en kısa yoludur. Nasıl nefes aldığın tüm yaşam kaliteni ve bedensel sağlığını doğrudan etkiler. Nefese yapılan yöntemsel bir değişiklik yaşam kalitesini ve sağlığı hızlı bir şekilde iyileştirir. Kişiye özel yapılan her seansta, beden doğal denge düzeyine kavuşur.",
+    image: "/services/nefes_ve_beden_farkindaligi.jpeg"
   },
   {
     link: "mindfulness-temelli-nefes-ve-yoga-dersleri",
     title: "Mindfulness Temelli Nefes ve Yoga Dersleri",
-    description: "Mindfulness temelli nefes ve yoga dersleri, içsel duyulara odaklanarak ve dengeyi keşfetmenin kapılarını aralar. Bu derslerde, nefesin yardımıyla bedensel ve zihinsel süreçlerin içersinde yoga pozları deneyimlenirken bedeni resestleyerek yeniden yapılandırma sürecine girilir. Her ders, sakin bir zihinle başlar ve nefes farkındalığı üzerine odaklanır. Ardından, bedeninizi güçlendirip ve esnetirken nefesinizi yönlendirerek ve farkındalığınızı derinleştirir.",
-    image: "https://placehold.co/1080.png"
+    description: "Mindfulness temelli nefes ve yoga dersleri, içsel duyulara odaklanarak, bedeni ve sinir sistemini dengeye getirir. Bu derslerde, nefesin yardımıyla bedensel ve zihinsel süreçlerin içersinde yoga pozları deneyimlenirken bedeni resetleyerek yeniden yapılandırma sürecine girilir. Her ders, zihni sakinleştirmeye yönelik başlar ve beden-nefes farkındalığı üzerine odaklanır. Bedeninizi güçlendirip esnetirken nefesinizi yönlendirirken, bedensel farkındalığı derinleştirir. Nefes-beden-zihin bağlantısı sağlıklı işleyişine kavuşur..",
+    image: "/services/mindfulness_temelli_nefes_ve_yoga_dersleri.jpg"
   },
   {
     link: "somatik-dans",
     title: "Somatik Dans",
-    description: "Somatik dans seansları, bedeninizi keşfetmenin, duygusal ifadenizi serbest bırakmanın ve içsel özgürlüğünüzü kutlamanın bir yoludur. Bu seanslarda, bedeninizi ritimle buluşturarak, duygularınızı dansın diliyle ifade eder ve içsel bilgelikle yeniden bağlantı kurarak, bedeninizin ritmiyle uyumlu olarak dans ederken içsel dünyanıza bir yolculuğa çıkarsınız. Bedeninizi keşfederken; Kendinizi daha güçlü, daha canlı ve daha özgür hissetmenize ve kendinizi tanımanıza bir alan açar.",
-    image: "https://placehold.co/1080.png"
+    description: "Bedeninizi keşfetmenin, duygusal ifadenizi serbest bırakmanın ve içsel özgürlüğü hissetmenin keyifli bir yoludur. Bu seanslarda, bedeninizi ritimle buluşturarak, duygularınızı dansın diliyle ifade eder ve içsel alanınızla yeniden bağlantı kurarsınız. Bedeninizin ritmiyle uyumlu olarak dans ederken içsel dünyanızı yakından tanıma ve güzelleştirme şansını yakalarsınız. .Bedeninizi keşfederken; Kendinizi daha güçlü, daha canlı ve daha özgür hissetmenize ve kendinizi tanımanıza alan açar.",
+    image: "/services/somatik_dans.jpg"
   }
 ];
 
 export const sss = [
+  {
+    title: "Bireysel danışmanlık sistemi nasıl işler?",
+    desc: "Danışmanlık sürecine başlamadan önce 15 dakikalık ÜCRETSİZ öngörüşme yapılarak hangi danışmanlık türüne  ihtiyacınız olduğu belirlenir. Bireysel seanslar 60 dakika civarında sürer."
+  },
+  {
+    title: "Grup atölyeleri sistemi nasıl işler?",
+    desc: "Zaman zaman tüm bu süreçleri kapsayan doğayla ve kendimizle bağlantımızı artıracak  yarım günlük iyileştirici grup atölyeleri yapılmaktadır. Grup seansları 60 - 90 dakika aralığında sürer."
+  },
   {
     title: "Kimler danışmanlık alabilir?",
     desc: "Danışmanlığa herkes başvurabilir. Bireyler, çiftler, aileler ve gençler, yaşadıkları zorluklarla başa çıkmak, ilişkilerini güçlendirmek veya kişisel gelişim sağlamak amacıyla danışmanlık alabilirler. Günlük yaşam becerilerine katılım ve performansı etkileyen durumlarda da iyilik halinin korunması için danışmanlık hizmeti önemlidir."
