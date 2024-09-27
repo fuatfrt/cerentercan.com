@@ -12,7 +12,7 @@ export default function Header() {
             src={"/logo.png"}
             alt={"Ceren Tercan"}
           />
-          <a href="/" className="w-full text-lg font-black text-[#fff]">Ceren Tercan</a>
+          <a href="/" className="w-full text-lg font-black text-[#fff] italic">Ceren Tercan</a>
         </div>
         <>
           <div className="hidden md:flex flex-row justify-center items-center h-full w-full gap-4 text-nowrap">
@@ -20,7 +20,7 @@ export default function Header() {
               links.map((link, index) => (
                 <a
                   key={index} href={link.href}
-                  className="flex justify-center items-center h-full font-extrabold text-[#000] px-4 transition duration-500 hover:scale-125 hover:bg-white">{link.name}</a>
+                  className="flex justify-center items-center h-full font-extrabold text-white px-4 bg-primary transition duration-500 hover:scale-125 hover:border">{link.name}</a>
               ))
             }
           </div>
@@ -29,7 +29,7 @@ export default function Header() {
         <div className="hidden md:flex justify-end items-center w-full">
           <a
             href={`tel:${process.env.NEXT_PUBLIC_PHONE_NUMBER}`}
-            className="flex flex-row justify-end items-center gap-4 text-black font-black transition duration-500 hover:scale-125 hover:text-white">
+            className="flex flex-row justify-end items-center gap-4 text-white font-black transition duration-500 hover:scale-125">
             <FaPhone className=""/>
             {process.env.NEXT_PUBLIC_PHONE_NUMBER}
           </a>

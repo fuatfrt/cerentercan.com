@@ -25,7 +25,7 @@ export const links = [
   },
   {
     name: 'Hizmetlerimiz',
-    href: '#hizmetler',
+    href: '#hizmetlerimiz',
   },
   {
     name: 'İletişim',
@@ -71,6 +71,20 @@ export const services = [
       </svg>
     ),
     link: "#psikolojik-danismanlik"
+  },
+  {
+    title: "Aile Danışmanlığı",
+    Icon: () => (
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="512.000000pt" height="512.000000pt"
+           viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+
+        <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+          <path
+            d="M3225 5109 c-149 -15 -383 -57 -720 -129 -176 -38 -369 -76 -429 -86 -59 -10 -117 -25 -128 -33 -24 -20 -38 -78 -38 -166 0 -159 52 -295 155 -403 74 -78 144 -123 262 -168 l86 -32 23 -114 c46 -228 124 -449 230 -658 77 -150 162 -262 239 -315 48 -33 66 -40 120 -43 80 -5 141 14 230 74 52 35 70 43 76 32 5 -7 37 -58 73 -113 48 -76 61 -103 53 -112 -13 -12 -1184 -762 -1202 -769 -6 -3 -27 8 -46 23 -20 15 -52 37 -73 48 l-37 20 3 129 3 129 60 14 c93 21 235 95 295 153 183 178 145 502 -99 827 -87 117 -252 281 -381 380 -101 78 -106 83 -123 139 -47 153 -137 272 -239 319 -215 97 -585 27 -861 -164 -88 -61 -217 -192 -277 -280 -61 -90 -117 -216 -148 -329 -23 -89 -26 -114 -26 -297 -1 -133 3 -219 12 -258 21 -92 70 -120 127 -75 26 20 27 24 21 82 -15 148 -18 350 -6 424 17 106 59 226 111 319 60 106 214 260 327 327 232 137 513 185 658 110 93 -47 150 -150 181 -324 25 -142 5 -407 -39 -513 -10 -26 -14 -28 -42 -21 -62 17 -188 10 -238 -13 -70 -32 -141 -103 -173 -174 -24 -54 -27 -70 -23 -147 2 -65 9 -99 26 -134 44 -89 142 -166 235 -183 44 -9 43 -2 22 -195 -33 -292 -75 -500 -146 -713 -116 -348 -297 -589 -496 -659 -69 -24 -173 -22 -199 4 -15 15 -15 20 0 64 8 27 24 92 33 144 25 133 25 570 0 748 -36 253 -113 571 -149 617 -38 48 -128 21 -128 -38 0 -13 11 -62 26 -111 78 -271 114 -502 121 -791 6 -241 -9 -405 -47 -527 -31 -98 -24 -146 28 -201 47 -50 99 -70 192 -75 71 -3 97 0 157 20 l73 24 0 -433 0 -434 25 -24 24 -25 619 0 c595 0 621 1 643 19 23 18 24 27 29 167 l5 147 79 19 c202 47 409 124 616 227 l140 70 0 -300 0 -300 25 -24 24 -25 560 0 560 0 25 23 c26 23 46 88 151 486 82 309 225 931 225 977 0 25 -47 64 -78 64 -51 0 -67 -31 -101 -200 -58 -283 -173 -745 -289 -1165 l-8 -30 -472 -3 -472 -2 0 297 1 298 71 49 c410 283 800 728 1021 1165 109 214 117 255 56 287 -26 13 -36 13 -60 4 -24 -10 -40 -35 -89 -138 -106 -220 -274 -481 -428 -662 l-29 -34 -34 27 c-19 14 -83 73 -143 130 l-109 103 72 89 c83 104 209 289 241 356 29 59 22 94 -23 115 -45 22 -78 7 -112 -53 -54 -92 -163 -249 -235 -338 -71 -88 -248 -275 -261 -275 -20 0 -38 318 -21 362 4 10 288 197 632 417 l625 400 17 -22 c27 -35 144 -276 164 -336 20 -65 16 -231 -12 -454 l-17 -137 23 -25 c30 -32 73 -33 104 -2 18 19 25 42 35 118 36 284 40 430 16 524 -17 63 -108 261 -170 366 l-36 62 27 61 c72 161 6 339 -156 418 -70 34 -187 32 -261 -4 -31 -16 -58 -28 -62 -28 -11 0 -101 164 -92 167 69 24 127 85 145 152 42 159 62 591 36 787 -31 238 -99 404 -215 527 -52 55 -82 77 -155 112 -50 24 -125 51 -166 60 -91 19 -349 27 -475 14z m460 -163 c221 -60 330 -197 391 -491 15 -73 19 -134 19 -320 0 -215 -9 -327 -36 -464 -11 -53 -11 -53 -76 -83 -58 -26 -67 -28 -86 -15 -12 8 -53 73 -90 145 l-68 131 17 57 c19 67 14 132 -14 197 -67 150 -247 216 -395 144 -61 -31 -120 -91 -139 -144 -7 -18 -19 -33 -27 -33 -27 0 -195 88 -238 124 -58 50 -75 55 -157 38 -86 -17 -253 -10 -341 13 -232 61 -368 205 -382 406 l-6 86 94 17 c52 9 229 46 394 81 538 115 686 136 920 131 107 -3 180 -9 220 -20z m-148 -835 c30 -14 48 -31 62 -60 25 -48 26 -79 6 -128 -28 -67 -20 -99 63 -259 42 -82 84 -159 92 -171 20 -28 89 -73 111 -73 26 0 153 -211 136 -226 -17 -16 -409 -265 -411 -262 -2 2 -49 76 -105 165 -133 209 -147 215 -259 112 -103 -94 -191 -121 -248 -77 -153 120 -323 499 -410 916 -4 21 -2 22 68 22 40 0 99 4 131 10 l57 9 63 -43 c34 -24 80 -53 102 -64 68 -34 215 -82 251 -82 43 0 84 37 84 76 0 51 37 111 83 133 51 26 70 26 124 2z m-1457 -601 c221 -221 341 -437 343 -620 1 -162 -90 -254 -308 -310 -43 -11 -86 -20 -95 -20 -10 0 -29 -9 -44 -21 -26 -20 -26 -21 -26 -168 l0 -147 -152 4 c-84 2 -155 6 -157 8 -2 2 4 72 13 156 23 222 22 269 -10 307 -25 30 -54 41 -137 56 -44 7 -109 61 -127 105 -21 50 -9 142 24 184 56 73 135 92 237 56 65 -22 111 -15 146 22 52 56 100 243 110 425 l6 122 51 -42 c28 -23 84 -76 126 -117z m2324 -324 c104 -44 134 -174 58 -256 -23 -25 -1319 -862 -1358 -877 -11 -4 -73 84 -162 229 l-22 36 652 418 c359 230 673 429 697 441 51 26 88 29 135 9z m-1522 -1090 l85 -134 -543 -347 c-558 -357 -561 -359 -552 -415 4 -32 50 -64 80 -57 12 4 122 70 243 147 196 125 221 139 232 124 17 -24 27 -97 20 -156 -7 -55 -71 -183 -102 -204 -47 -31 -246 -68 -550 -102 -138 -16 -233 -80 -291 -197 -25 -51 -29 -71 -29 -140 1 -66 6 -91 29 -142 51 -112 158 -190 275 -200 51 -5 212 7 336 24 l45 6 0 -77 0 -76 -520 0 -520 0 0 431 0 432 66 70 c186 197 330 525 414 940 l11 57 133 0 c86 0 152 -5 191 -15 57 -15 176 -72 174 -84 0 -3 -107 -74 -237 -156 -143 -91 -242 -160 -251 -176 -21 -37 -7 -76 32 -95 24 -11 39 -13 57 -5 14 5 259 160 545 344 286 185 525 336 531 336 6 1 49 -59 96 -133z m200 -510 l21 -139 -24 -19 c-72 -58 -276 -186 -381 -238 -66 -33 -122 -59 -124 -58 -1 2 4 28 12 58 20 76 18 153 -6 235 -12 39 -22 76 -23 83 -1 7 111 84 248 172 l250 160 3 -58 c1 -31 12 -119 24 -196z m518 -156 l135 -130 -95 -92 c-469 -457 -1099 -739 -1752 -784 -80 -6 -106 -4 -142 10 -73 28 -126 105 -126 184 0 56 54 138 111 168 15 7 78 18 140 24 374 34 704 136 1012 313 192 110 375 247 502 376 33 34 64 61 70 61 5 0 71 -59 145 -130z"/>
+        </g>
+      </svg>
+    ),
+    link: "#aile-danismanligi"
   },
   {
     title: "Öğrenci Koçluğu ve YKS-LGS Tercih Danışmanlığı",
@@ -173,52 +187,60 @@ export const servicesContent = [
   {
     link: "mindfulness-koclugu",
     title: "Mindfulness Koçluğu",
-    description: "Bireylerin kendisiyle açık yargısız ve arkadaşça ilişki kurarak öncelikle kişinin kendisiyle olan ilişkisini iyileştirir. Bireylerin bedenlerinde ve zihinlerinde neler olup bittiğini anlamalarına ve kabullenmelerine yardımcı olurken, yaşamlarında tekrarlayan zorlayıcı deneyimlerin olumlu anlamda dönüşümüne de destek sağlar. İlişkiler, kariyer, bedenle olan ilişki, hedefler üzerine çalışır. Temel hedefleri, bireylerin şimdiki anı daha bilinçli bir şekilde deneyimleyerek kendileriyle sağlam bir bağ kurmalarını ve gerçek ihtiyaçlarını daha net bir şekilde görerek eylemde bulunmalarını sağlamaktır.",
+    description: "Bireyin kendisiyle açık, yargısız ve arkadaşça ilişki kurmasına yardımcı olarak öncelikle kişinin kendisiyle olan ilişkisini güçlendirir.Bireylerin beden ve zihinlerinde neler olup bittiğini anlamalarına ve kabullenmelerine yardımcı olurken yaşamlarında tekrarlayan zorlayıcı deneyimlerin olumlu anlamda dönüşümüne de destek sağlar. Temel hedef; bireylerin şimdiki anı daha bilinçli bir şekilde deneyimleyerek kendileriyle sağlam bir bağ kurmalarını ve gerçek ihtiyaçlarını daha net bir şekilde görerek eylemde bulunmalarını sağlamaktır.",
     image: "/services/mindfulness_koclugu.jpeg"
   },
   {
     link: "psikolojik-danismanlik",
     title: "Psikolojik Danışmanlık",
-    description: "Bireylerin duygusal, zihinsel ve davranışsal sorunlarını anlayıp çözmelerine yardımcı olan profesyonel bir destek sürecidir. Bu süreçte Danışman bireylerin; stres,  depresyon, anksiyete, ilişki problemleri gibi çeşitli konularda rehberlik eder.  Bireyin ihtiyaçlarına ve hedeflerine uygun stratejiler ve teknikler kullanarak danışanların sorunlarına çözüm bulmalarını sağlar ve yaşam kalitelerini artırmaya katkıda bulunur.",
+    description: "Bireylerin duygusal, zihinsel ve davranışsal sorunlarını anlayıp çözmelerine yardımcı olan profesyonel bir destek sürecidir. Bu süreçte danışman, bireylere stres,  depresyon, anksiyete, ilişki problemleri gibi çeşitli konularda destek sağlar.  Bireyin ihtiyaçlarını ve hedeflerini ortaya çıkaracak teknikler kullanarak danışanların sorunlarına çözüm bulmalarını sağlar ve yaşam kalitelerini artırmalarına katkıda bulunur.",
     image: "/services/psikolojik_danismanlik.jpg"
+  },
+  {
+    link: "aile-danismanligi",
+    title: "Aile Danışmanlığı",
+    description: "<b>Aile Danışmanlığı</b>\n" +
+      "Aile danışmanlığı; aile üyelerinin ilişkilerini anlamlandırmalarını, iletişimlerini geliştirmelerini ve aile sorunlarına karşı yapıcı bakış açıları kazanmalarını sağlayan deneyimsel bir terapi yöntemidir. Aile üyeleriyle beraber ya da bireysel olarak çalışılarak aile içindeki yapının anlaşılması ve aile dinamiklerinin sağlıklı bir temele kavuşması hususunda destekleyici bir araçtır. Evli çiftlere yönelik bir terapi yöntemi olarak görülse de duygusal ilişki içerisinde olan tüm çiftler için etkileyici bir yöntemdir. \n" +
+      "\"Aile danışmanlığı,aile üyelerine çözüm odaklı yaklaşımlar sunarak ilişkileri güçlendirmeyi hedefler.\"\n",
+    image: "/services/aile_danismanligi.jpg"
   },
   {
     link: "ogrenci-koclugu-ve-yks-lgs-tercih-danismanligi",
     title: "Öğrenci Koçluğu ve YKS-LGS Tercih Danışmanlığı",
     description: "<b>ÖĞRENCİ KOÇLUĞU</b>\n" +
-      "Öğrenci Koçluğu, öğrencilerin okul hayatını rahatlıkla yönetebilmelerini ve kendilerine has bir disiplin anlayışı benimseyerek eğitim süreçlerini sağlıklı geçirebilmeleri için profesyonel destek sunar. Öğrencilere zaman yönetimi, motivasyon, sınav kaygısı, çalışma teknikleri ve kariyer planlaması konusunda rehberlik eder. Özellikle sınav grubu öğrencilerinin sınav kaygısını ve sürecini anlama, yönetme becerilerini geliştirir. Sınav stresiyle başa çıkma stratejileri sunarak, sınava rahat bir süreç içinde hazırlanmalarına yardımcı olur. \n" +
+      "Öğrenci koçluğu, öğrencilerin okul hayatını rahatlıkla yönetebilmelerini ve kendilerine has bir disiplin anlayışı benimseyerek eğitim süreçlerini sağlıklı geçirebilmeleri için öğrencilere profesyonel destek sunar. Öğrencilere zaman yönetimi, motivasyon, sınav kaygısı, çalışma teknikleri ve kariyer planlaması konusunda rehberlik eder. Özellikle sınav grubu öğrencilerinin sınav kaygısını ve sürecini anlama, yönetme becerilerini geliştirir. Sınav stresiyle başa çıkma stratejileri sunarak sınava rahat bir süreç içinde hazırlanmalarına yardımcı olur. \n" +
       "\n<b>YKS-LGS (Üniversite-Lise) TERCİH DANIŞMANLIĞI</b>\n" +
-      "Gençlerin geleceklerini şekillendirirken doğru tercihleri yapmalarına yardımcı olmak için özel olarak tasarlanmıştır. Doğru Tercih yapmak, sınavdan iyi bir puan almak kadar önemlidir. İyi bir tercih sıralaması sizi yaşamak istediğiniz en yüksek hayalinizi gerçekleştirmenize alan açar.. Kişisel yetenekler, ilgi alanları ve hedefler göz önünde bulundurularak, tercih süreci yürütülür. Misyonumuz; Öğrencilerimizin başarılı bir geleceğe adım atmaları için gerekli desteği sunmaktır.\n",
+      "Gençlerin geleceklerini şekillendirirken doğru tercihleri yapmalarına yardımcı olmak için özel olarak tasarlanmıştır. Doğru tercih yapmak, sınavdan iyi bir puan almak kadar önemlidir. İyi bir tercih sıralaması, kişinin yaşamak istediği en yüksek hayalini gerçekleştirmesi için alan açar.. Kişisel yetenekler, ilgi alanları ve hedefler göz önünde bulundurularak tercih süreci yürütülür.\n",
     image: "/services/ogrenci_koclugu_ve_yks_lgs_tercih_danismanligi.jpeg"
   },
   {
     link: "nefes-ve-beden-farkindaligi",
     title: "Nefes ve Beden Farkındalığı",
-    description: "Nefes sinir sistemini olumlu etkilemenin en kısa yoludur. Nasıl nefes aldığın tüm yaşam kaliteni ve bedensel sağlığını doğrudan etkiler. Nefese yapılan yöntemsel bir değişiklik yaşam kalitesini ve sağlığı hızlı bir şekilde iyileştirir. Kişiye özel yapılan her seansta, beden doğal denge düzeyine kavuşur.",
+    description: "Nefes, sinir sistemini olumlu etkilemenin en kısa yoludur. Nasıl nefes aldığın tüm yaşam kaliteni ve bedensel sağlığını doğrudan etkiler. Nefese yapılan yöntemsel bir değişiklik yaşam kalitesini ve sağlığını hızlı bir şekilde iyileştirir. Kişiye özel yapılan her seansta, beden doğal denge düzeyine kavuşur.",
     image: "/services/nefes_ve_beden_farkindaligi.jpeg"
   },
   {
     link: "mindfulness-temelli-nefes-ve-yoga-dersleri",
     title: "Mindfulness Temelli Nefes ve Yoga Dersleri",
-    description: "Mindfulness temelli nefes ve yoga dersleri, içsel duyulara odaklanarak, bedeni ve sinir sistemini dengeye getirir. Bu derslerde, nefesin yardımıyla bedensel ve zihinsel süreçlerin içersinde yoga pozları deneyimlenirken bedeni resetleyerek yeniden yapılandırma sürecine girilir. Her ders, zihni sakinleştirmeye yönelik başlar ve beden-nefes farkındalığı üzerine odaklanır. Bedeninizi güçlendirip esnetirken nefesinizi yönlendirirken, bedensel farkındalığı derinleştirir. Nefes-beden-zihin bağlantısı sağlıklı işleyişine kavuşur..",
+    description: "Mindfulness temelli nefes ve yoga dersleri, içsel duyulara odaklanarak bedeni ve sinir sistemini dengeye getirir. Bu derslerde, nefesin yardımıyla bedensel ve zihinsel süreçlerin içersinde yoga pozları deneyimlenirken bedeni resetleyerek yeniden yapılandırma sürecine girilir. Her ders, zihni sakinleştirmeye yönelik başlar ve beden-nefes farkındalığı üzerine odaklanır. Bedeninizi güçlendirip esnetirken, nefesinizi yönlendirirken bedensel farkındalığı derinleştirir. Nefes-beden-zihin bağlantısı sağlıklı işleyişine kavuşur.",
     image: "/services/mindfulness_temelli_nefes_ve_yoga_dersleri.jpg"
   },
   {
     link: "somatik-dans",
     title: "Somatik Dans",
-    description: "Bedeninizi keşfetmenin, duygusal ifadenizi serbest bırakmanın ve içsel özgürlüğü hissetmenin keyifli bir yoludur. Bu seanslarda, bedeninizi ritimle buluşturarak, duygularınızı dansın diliyle ifade eder ve içsel alanınızla yeniden bağlantı kurarsınız. Bedeninizin ritmiyle uyumlu olarak dans ederken içsel dünyanızı yakından tanıma ve güzelleştirme şansını yakalarsınız. .Bedeninizi keşfederken; Kendinizi daha güçlü, daha canlı ve daha özgür hissetmenize ve kendinizi tanımanıza alan açar.",
+    description: "Bedeninizi keşfetmenin, duygusal ifadenizi serbest bırakmanın ve içsel özgürlüğü hissetmenin keyifli bir yoludur. Bu seanslarda, bedeninizi ritimle buluşturarak duygularınızı dansın diliyle ifade eder ve içsel alanınızla yeniden bağlantı kurarsınız. Bedeninizin ritmiyle uyumlu olarak dans ederken içsel dünyanızı yakından tanıma ve güzelleştirme şansını yakalarsınız. .Bedeninizi keşfederken kendinizi daha güçlü, daha canlı ve daha özgür hissetmenize ve kendinizi tanımanıza alan açar.",
     image: "/services/somatik_dans.jpg"
   }
 ];
 
 export const sss = [
   {
-    title: "Bireysel danışmanlık sistemi nasıl işler?",
-    desc: "Danışmanlık sürecine başlamadan önce 15 dakikalık ÜCRETSİZ öngörüşme yapılarak hangi danışmanlık türüne  ihtiyacınız olduğu belirlenir. Bireysel seanslar 60 dakika civarında sürer."
+    title: "Danışmanlık sistemi nasıl işler?",
+    desc: "Danışmanlık hizmeti, bireylerin yaşadıkları sorunlar karşısında duygusal destek sağlar. Danışmanlar, bireylerin yaşadıkları sorunları dinler, anlar ve çözüm yolları bulmalarına rehberlik eder. Danışmanlık hizmeti, kişisel gelişim ve iyileşme yolculuğunda önemli bir destek ve rehberlik kaynağıdır."
   },
   {
     title: "Grup atölyeleri sistemi nasıl işler?",
-    desc: "Zaman zaman tüm bu süreçleri kapsayan doğayla ve kendimizle bağlantımızı artıracak  yarım günlük iyileştirici grup atölyeleri yapılmaktadır. Grup seansları 60 - 90 dakika aralığında sürer."
+    desc: "Zaman zaman tüm bu süreçleri kapsayan doğayla ve kendimizle bağlantımızı artıracak  yarım günlük iyileştirici grup atölyeleri yapılmaktadır."
   },
   {
     title: "Kimler danışmanlık alabilir?",
@@ -226,7 +248,7 @@ export const sss = [
   },
   {
     title: "Danışmanlık seansları ne kadar sürer?",
-    desc: "Danışmanlık hizmeti, bireylerin yaşadıkları sorunlar karşısında duygusal destek sağlar. Danışmanlar, bireylerin yaşadıkları sorunları dinler, anlar ve çözüm yolları bulmalarına rehberlik eder. Danışmanlık hizmeti, kişisel gelişim ve iyileşme yolculuğunda önemli bir destek ve rehberlik kaynağıdır."
+    desc: "Danışmanlık sürecine başlamadan önce 15 dakikalık ÜCRETSİZ ön görüşme yapılarak hangi danışmanlık türüne  ihtiyacınız olduğu belirlenir. Bireysel seanslar 60 dakika civarında sürer."
   },
   {
     title: "Danışmanlık gizli midir?",
@@ -242,6 +264,6 @@ export const sss = [
   },
   {
     title: "Hangi konularda danışmanlık alabilirim?",
-    desc: "Evet, danışmanlık seansları gizli ve güvenlidir. Danışmanlık etiği ve yasalarına göre, danışmanlar danışan gizliliğine büyük önem verir ve paylaşılan bilgileri gizli tutarlar."
+    desc: "Aile, ilişkiler, sınav kaygısı, stres yönetimi, kişisel gelişim, kariyer planlaması ve İhtiyaçlarınıza uygun olarak farklı konularda danışmanlık alabilirsiniz."
   },
 ]

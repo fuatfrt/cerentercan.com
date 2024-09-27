@@ -20,7 +20,7 @@ export default function AccordionItem({index, title, open, activeItem, children}
           open === index
             ? "rotate-180"
             : ""
-        } flex justify-center items-center h-full font-black duration-5000 transform`}>
+        } flex justify-center items-center h-full font-black transition-all duration-500`}>
           <IoIosArrowDropdown size="25px" className="font-bold"/>
         </span>
       </button>

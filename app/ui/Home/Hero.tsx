@@ -10,10 +10,10 @@ export default function Hero() {
               Rotanı nereye çevirirsen o tarafa gidersin.Lakin bazen rüzgara göre şekil alman gerekebilir
             </p>
             <p className="md:text-xl text-center font-bold">
-              Mindfulness, psikoloji, nefes, beden ve dans gibi güçlü araçlarla desteklenen danışmanlık süreci. İçsel dengeyi sağlama, İlişkileri iyileştirme, sınav dönemi desteği, sağlıklı YKS-LGS tercihleri, tutkularınızı takip etme ve yaşamınızı yeniden yapılandırma yolunda profesyonel rehberlik hizmeti.
+              Bazen yolumuzu kaybetmiş hissederiz. Aslında hatırlamamız gereken şey insan olduğumuz ve bazı zamanlarda desteğe ihtiyaç duyabileceğimizdir. Yeni kararlar alıp yeni bir hayat kurmak ya da mevcut yaşamı iyileştirmek, zor dönemleri en sağlıklı şekilde atlatmak, bazen de hayatımıza neşe ve tutku katmak gibi çeşitli ihtiyaçlarımız olabilir. Mindfulness, psikoloji, nefes, beden ve dans gibi güçlü araçlarla desteklenen profesyonel danışmanlık süreciyle ihtiyaçlarınızı anlayıp yaşamınızı iyileştirmek adına beraber yol alıyoruz.
             </p>
             <p className="md:text-xl font-bold text-center">
-              Potansiyellerini keşfet, rotanı planla, yaşamını yeniden oluştur.
+              Kendinle ilişkini fark et, potansiyelini keşfet, rotanı planla, yaşamını yeniden oluştur.
             </p>
           </div>
         </div>
