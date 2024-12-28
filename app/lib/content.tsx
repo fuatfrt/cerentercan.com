@@ -114,7 +114,7 @@ export const services = [
         </g>
       </svg>
     ),
-    link: "#ogrenci-koclugu-ve-yks-lgs-tercih-danismanligi"
+    link: "#ogrenci-koclugu"
   },
   {
     title: "YKS-LGS Tercih Danışmanlığı",
