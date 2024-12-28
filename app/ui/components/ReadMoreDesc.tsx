@@ -13,7 +13,7 @@ export default function ReadMoreDesc({children}: ReadMoreDescProps) {
       <div className={`${open ? "h-full": "h-auto"} overflow-hidden`}>
         {open ? children : shortText}
         <button
-          className="text-primary font-bold pl-2"
+          className="text-primary font-bold pl-1.5"
           onClick={() => {
             setOpen(!open);
           }}>
