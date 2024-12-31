@@ -252,7 +252,7 @@ export const servicesContent = [
     link: "yks-lgs-tercih-danismanligi",
     title: "YKS-LGS (Üniversite-Lise) TERCİH DANIŞMANLIĞI",
     description: "Gençlerin geleceklerini şekillendirirkendoğru tercihleri yapmalarına yardımcı olmak için özel olarak tasarlanmıştır. Doğru tercih yapmak, sınavdan iyi bir puan almak kadar önemlidir. İyi bir tercih sıralaması, kişinin yaşamak istediğien yüksek hayalini gerçekleştirmesi için alan açar. Kişisel yetenekler, ilgi alanları ve hedefler göz önünde bulundurularak tercih süreci yürütülür.  Öğrencilerimizin, kişiliklerine uygun bir geleceğe sağlıklı adımlar atmaları hedeflenir.",
-    image: "/services/yks_lgs_tercih_danismanligi.jpg"
+    image: "/services/yks_lgs_tercih_danismanligi.JPG"
   },
   {
     link: "nefes-ve-beden-farkindaligi",
