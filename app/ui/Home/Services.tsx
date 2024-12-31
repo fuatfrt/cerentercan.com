@@ -8,8 +8,8 @@ export default function Services({id}: { id: string }) {
     <div id={id} className="flex justify-center items-center h-full w-full py-16 lg:py-14 border-y border-black">
       <div className="flex flex-col justify-center items-center h-full w-full max-w-7xl">
         <h1
-          className="flex justify-center items-center w-full max-w-6xl bg-box-light p-8 text-4xl border-b border-black">
-          Platform
+          className="flex justify-center items-center w-full max-w-6xl bg-box-light p-8 text-2xl md:text-4xl font-bold border-b border-black">
+          Holistik Yaşam Danışmanlığı
         </h1>
         <div
           className="grid grid-cols-1 md:grid-cols-4 justify-center items-center h-full w-full bg-box-light gap-4 p-4 text-center">

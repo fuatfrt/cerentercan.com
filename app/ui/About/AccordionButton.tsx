@@ -109,7 +109,7 @@ export default function AccordionButton() {
             </ul>
           </div>
           <div>
-            <h2 className="font-bold">Katıldığı Seminer ve Kurslar:</h2>
+            <h2 className="font-bold">Alınan Mesleki Eğitimler:</h2>
             <ul className="flex flex-col pl-4 list-disc">
               <li>2024 - UZM. Klinik Psikolog Gökhan ÇINAR -
                 <span className="font-light italic">“Aile Danışmanlığı Eğitimi” (464 Saat)</span>

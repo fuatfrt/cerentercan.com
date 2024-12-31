@@ -17,8 +17,8 @@ export default function Sss({id}: { id: string }) {
             height={500}
             loading="lazy"
             className="h-auto w-full rounded-tl-xl rounded-br-xl shadow-2xl"
-            src="/sss2.JPG" alt="Ceren Tercan"/>
-          <div className="absolute bottom-16 right-2 md:right-1 flex h-[65%] w-[85%] rounded-tl-xl rounded-br-xl bg-slate-400 -z-10"/>
+            src="/sss.JPG" alt="Ceren Tercan"/>
+          <div className="absolute bottom-16 right-2 md:right-1 flex h-[65%] w-[85%] rounded-tl-xl rounded-br-xl bg-black opacity-10 -z-10"/>
         </div>
       </div>
     </div>

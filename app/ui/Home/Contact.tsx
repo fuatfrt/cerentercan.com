@@ -7,10 +7,16 @@ export default function Contact({id}: { id: string }) {
           className="flex flex-col md:flex-row items-center h-full w-full divide-black divide-y-2 lg:divide-x-2 lg:divide-y-0">
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 items-center h-full min-h-96 w-full gap-4 lg:gap-0 px-4">
             <div className="flex flex-col justify-center items-center h-full w-full gap-2 border-black border-b">
-              <p>Adres</p>
-              <p>Atıfbey Mahallesi 67 sokak No:39 B Blok Daire:2 Gaziemir/İzmir</p>
+              <div>
+                <p>Adres 1:</p>
+                <p>Atıfbey Mahallesi 67 sokak No:39 B Blok Daire:2 Gaziemir/İzmir</p>
+              </div>
+              <div>
+                <p>Adres 2:</p>
+                <p>Kültür Mah. Dr Mustafa Enver bey cad. No:1/1 Konak İzmir, Turkey (Alsancak/ Gül Sokak’ta)</p>
+              </div>
             </div>
-            <div className="flex flex-col justify-center items-center h-full w-full gap-2 border-black border-b lg:border-l">
+            <div className="flex flex-col justify-center items-center h-full w-full border-black border-b lg:border-l">
               <p>Telefon</p>
               <a className="text-blue-500" href="tel:05535396935">0553 539 69 35</a>
             </div>

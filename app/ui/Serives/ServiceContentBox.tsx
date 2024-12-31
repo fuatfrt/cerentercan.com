@@ -23,7 +23,7 @@ export default function ServiceContentBox({link, title, description, image, inde
         src={image}
         alt={title}/>
       <div className={`flex flex-col justify-center items-center w-full gap-4 ${(index % 2) === 0 && "lg:order-first"}`}>
-        <h2 className="text-3xl font-bold">{title}</h2>
+        <h2 className="text-2xl md:text-3xl font-bold">{title}</h2>
         <p className="text-lg whitespace-pre-line" dangerouslySetInnerHTML={{__html: description}}/>
         <div className="flex justify-center items-center w-full">
           <button
