@@ -6,13 +6,24 @@ export default function Header() {
   return (
     <header className="sticky top-0 flex justify-center h-full w-full bg-primary text-white/90 border-b border-stone-400 z-50">
       <div className="flex justify-between items-center h-16 w-full max-w-7xl gap-4 px-4">
-        <div className="flex flex-row justify-center items-center gap-2 w-full">
-          <img
-            className="h-14 w-14 rounded-full p-1 border-2 border-white"
-            src={"/logo.png"}
-            alt={"Ceren Tercan"}
-          />
-          <a href="/" className="w-full text-lg font-black text-[#fff] italic">Ceren Tercan</a>
+        <div className="flex flex-row justify-center items-center h-full w-full gap-2 ">
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="34.000000pt" height="34.000000pt"
+               viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+
+            <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#fff" stroke="none">
+              <path
+                d="M2500 5113 c-319 -31 -529 -63 -784 -120 -441 -97 -705 -240 -908 -492 -158 -196 -263 -412 -327 -672 -37 -152 -54 -201 -116 -343 -85 -195 -75 -264 57 -401 43 -45 78 -90 78 -99 0 -9 -20 -56 -45 -105 -88 -175 -208 -367 -340 -541 -84 -110 -102 -142 -111 -199 -14 -89 54 -180 187 -250 102 -54 129 -77 129 -113 0 -18 -21 -71 -47 -122 -33 -65 -46 -104 -47 -135 -1 -40 3 -47 58 -98 54 -50 58 -56 47 -79 -6 -14 -11 -47 -11 -73 0 -61 20 -87 112 -146 l70 -46 -6 -72 c-18 -217 -18 -232 -1 -296 45 -174 148 -269 300 -278 60 -4 96 2 245 42 96 25 262 75 369 110 l194 64 28 -20 c107 -76 236 -296 299 -510 14 -48 31 -82 48 -98 l26 -24 1098 5 1099 4 26 27 c48 47 35 96 -73 267 -122 194 -214 524 -244 873 -12 138 -1 292 32 432 33 146 34 160 4 189 -28 29 -79 34 -108 12 -39 -29 -81 -197 -99 -394 -30 -331 86 -885 242 -1156 21 -38 37 -71 34 -74 -3 -3 -436 -8 -963 -10 l-958 -5 -18 59 c-41 132 -147 327 -239 437 -22 26 -38 50 -35 52 2 3 76 29 164 60 87 30 191 71 231 89 212 101 331 239 336 392 2 65 -27 104 -78 104 -39 0 -85 -34 -85 -61 0 -106 -80 -200 -231 -272 -176 -85 -1053 -374 -1267 -418 -168 -35 -251 97 -208 331 19 103 12 166 -25 226 -24 39 -82 92 -115 104 -29 11 -30 27 -4 60 22 28 26 89 8 111 -10 12 -72 62 -117 96 -2 1 13 36 34 77 90 178 46 314 -132 404 -67 35 -143 88 -143 101 0 5 45 70 101 145 131 176 244 358 330 529 56 112 69 147 69 185 0 72 -39 144 -120 221 -54 52 -70 74 -70 95 0 16 21 76 46 135 60 136 78 190 114 335 73 290 170 482 347 683 114 131 305 246 527 317 273 89 885 186 1160 186 406 -1 792 -141 1177 -427 52 -38 132 -104 177 -146 73 -69 86 -77 121 -77 47 0 81 35 81 82 0 87 -380 380 -693 534 -224 110 -430 170 -666 194 -96 9 -291 11 -371 3z"/>
+              <path
+                d="M1525 4589 c-248 -83 -430 -235 -569 -475 -64 -111 -102 -206 -141 -361 -29 -109 -33 -137 -24 -163 13 -36 35 -50 82 -50 53 0 71 29 106 167 57 231 140 384 280 523 99 97 188 152 329 201 103 35 129 62 117 119 -15 67 -64 78 -180 39z"/>
+              <path
+                d="M3240 4551 c-120 -128 -269 -358 -352 -545 -22 -50 -42 -93 -44 -95 -2 -2 -39 20 -83 48 -171 110 -391 207 -577 257 -104 28 -143 24 -165 -18 -25 -47 -42 -192 -46 -417 l-5 -233 -97 2 c-53 2 -138 2 -189 1 -90 -1 -95 -2 -124 -31 -29 -30 -30 -33 -24 -93 13 -113 47 -260 92 -397 218 -657 658 -999 1364 -1060 147 -12 638 -6 760 10 574 74 956 339 1184 821 84 179 148 388 177 586 14 93 7 121 -35 148 -21 14 -56 17 -212 17 l-187 0 6 99 c11 181 -22 500 -57 554 -23 34 -58 38 -149 14 -175 -44 -422 -153 -585 -258 l-76 -50 -56 117 c-97 200 -262 446 -364 540 -64 59 -87 57 -156 -17z m214 -331 c72 -109 138 -231 186 -342 l33 -77 -58 -63 c-94 -102 -173 -215 -225 -323 -26 -55 -51 -111 -55 -125 l-8 -25 -10 25 c-70 172 -160 315 -277 443 -53 58 -53 59 -41 95 44 127 171 357 274 496 l51 69 33 -39 c19 -21 62 -81 97 -134z m-989 -291 c117 -57 281 -162 376 -242 227 -189 379 -523 395 -862 l6 -120 -46 83 c-112 204 -271 386 -429 492 -163 109 -377 199 -550 231 l-66 12 -7 55 c-8 62 1 416 11 449 l7 22 100 -35 c56 -20 147 -58 203 -85z m2043 -116 c3 -111 1 -222 -2 -246 l-7 -45 -67 -12 c-99 -18 -244 -66 -351 -116 -265 -124 -473 -325 -627 -606 l-46 -83 6 112 c16 322 136 613 333 810 151 151 398 300 643 387 86 31 96 32 104 18 6 -10 12 -108 14 -219z m-2457 -449 c538 -75 875 -334 1070 -824 40 -100 109 -349 109 -392 0 -20 -3 -21 -122 -14 -632 36 -1006 258 -1234 732 -53 112 -115 295 -142 422 l-20 92 114 0 c62 0 163 -7 225 -16z m2867 -76 c-28 -132 -90 -314 -147 -432 -186 -382 -470 -597 -906 -685 -96 -19 -309 -41 -403 -41 l-45 0 7 43 c40 250 148 511 292 704 130 174 239 264 436 358 197 94 418 142 659 144 l127 1 -20 -92z"/>
+              <path d="M719 3397 c-62 -48 -40 -137 37 -153 44 -9 94 35 94 82 0 65 -81 109 -131 71z"/>
+            </g>
+          </svg>
+          <a href="/" className="relative flex flex-col justify-center items-start h-full w-full gap-0 text-lg font-black text-[#fff] italic">
+            <p className="absolute top-3">Ceren Tercan</p>
+            <p className="absolute bottom-2 text-[0.70rem] pl-3 underline italic">İyi Yaşam Rehberi</p>
+          </a>
         </div>
         <>
           <div className="hidden md:flex flex-row justify-center items-center h-full w-full gap-4 text-nowrap">
@@ -26,14 +37,14 @@ export default function Header() {
           </div>
           <MobilMenu/>
         </>
-        <div className="hidden md:flex justify-end items-center w-full">
-          <a
-            href={`tel:${process.env.NEXT_PUBLIC_PHONE_NUMBER}`}
-            className="flex flex-row justify-end items-center gap-4 text-white font-black transition duration-500 hover:scale-125">
-            <FaPhone className=""/>
-            {process.env.NEXT_PUBLIC_PHONE_NUMBER}
-          </a>
-        </div>
+        {/*<div className="hidden md:flex justify-end items-center w-full">*/}
+        {/*  <a*/}
+        {/*    href={`tel:${process.env.NEXT_PUBLIC_PHONE_NUMBER}`}*/}
+        {/*    className="flex flex-row justify-end items-center gap-4 text-white font-black transition duration-500 hover:scale-125">*/}
+        {/*    <FaPhone />*/}
+        {/*    Telefon*/}
+        {/*  </a>*/}
+        {/*</div>*/}
       </div>
     </header>
   );
